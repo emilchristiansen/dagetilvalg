@@ -39,7 +39,9 @@
 			if (seconds == 1) { thisEl.find(".timeRefSeconds").text("Sekund"); } else { thisEl.find(".timeRefSeconds").text("Sekunder"); }
 			//logic for the two_digits ON setting
 			if(settings['format'] == "on") {
-				days = (String(days).length >= 2) ? days : "0" + days;
+                years = (String(years).length >= 2) ? years : "0" + years;
+                months = (String(months).length >= 2) ? months : "0" + months;
+                days = (String(days).length >= 2) ? days : "0" + days;
 				hours = (String(hours).length >= 2) ? hours : "0" + hours;
 				minutes = (String(minutes).length >= 2) ? minutes : "0" + minutes;
 				seconds = (String(seconds).length >= 2) ? seconds : "0" + seconds;
