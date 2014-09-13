@@ -144,7 +144,7 @@
     }
 
     function twitter() {
-        var s = 'Der er ' + y + ' år, ' + m + ' måneder og ' + d + ' dage til næste Folketingsvalg: http://dagetilvalg.dk #valgdk #dkpol #dagetilvalg';
+        var s = 'Der er ' + y + ' år, ' + m + ' ' + m_format + ' og ' + d + ' ' + d_format + ' til næste Folketingsvalg: http://dagetilvalg.dk #valgdk #dkpol #dagetilvalg';
         window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(s),'_blank');
     }
 </script>

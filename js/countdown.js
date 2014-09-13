@@ -32,11 +32,11 @@
 			seconds -= minutes * 60; //update the seconds variable with no. of minutes removed
  
 			//conditional Ss
-            if (months == 1) { thisEl.find(".timeRefMonths").text("Måned"); } else { thisEl.find(".timeRefMonths").text("Måneder"); }
-			if (days == 1) { thisEl.find(".timeRefDays").text("Dag"); } else { thisEl.find(".timeRefDays").text("Dage"); }
-			if (hours == 1) { thisEl.find(".timeRefHours").text("Time"); } else { thisEl.find(".timeRefHours").text("Timer"); }
-			if (minutes == 1) { thisEl.find(".timeRefMinutes").text("Minut"); } else { thisEl.find(".timeRefMinutes").text("Minutter"); }
-			if (seconds == 1) { thisEl.find(".timeRefSeconds").text("Sekund"); } else { thisEl.find(".timeRefSeconds").text("Sekunder"); }
+            if (months == 1) { thisEl.find(".timeRefMonths").text("måned"); window['m_format'] = 'måned';} else { thisEl.find(".timeRefMonths").text("måneder"); window['m_format'] = 'måneder'; }
+			if (days == 1) { thisEl.find(".timeRefDays").text("dag"); window['d_format'] = 'dag';} else { thisEl.find(".timeRefDays").text("dage"); window['d_format'] = 'dage';}
+			if (hours == 1) { thisEl.find(".timeRefHours").text("time"); } else { thisEl.find(".timeRefHours").text("timer"); }
+			if (minutes == 1) { thisEl.find(".timeRefMinutes").text("minut"); } else { thisEl.find(".timeRefMinutes").text("minutter"); }
+			if (seconds == 1) { thisEl.find(".timeRefSeconds").text("sekund"); } else { thisEl.find(".timeRefSeconds").text("sekunder"); }
 			//logic for the two_digits ON setting
 			if(settings['format'] == "on") {
                 years = (String(years).length >= 2) ? years : "0" + years;
