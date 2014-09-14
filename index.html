@@ -56,14 +56,6 @@
 		<div id="countdowncont" class="clearfix">
 			<ul id="countscript">
 				<li>
-					<span class="years">00</span>
-					<p class="timeRefYears">År</p>
-				</li>
-                <li>
-					<span class="months">00</span>
-					<p class="timeRefMonths">Måneder</p>
-				</li>
-				<li>
 					<span class="days">00</span>
 					<p class="timeRefDays">Dage</p>
 				</li>
@@ -144,7 +136,7 @@
     }
 
     function twitter() {
-        var s = 'Der er ' + y + ' år, ' + m + ' ' + m_format + ' og ' + d + ' ' + d_format + ' til næste Folketingsvalg: http://dagetilvalg.dk #valgdk #dkpol #dagetilvalg';
+        var s = 'Der er ' + d + ' ' + d_format + ', ' + h + ' ' + h_format + ' og ' + m + ' ' + m_format + ' til næste Folketingsvalg: http://dagetilvalg.dk #valgdk #dkpol #dagetilvalg';
         window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(s),'_blank');
     }
 </script>

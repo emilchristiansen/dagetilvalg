@@ -268,7 +268,7 @@ h1, h2, h3
         #countdown #countdowncont ul#countscript li
 		{
 			float: left;
-			width: 33%;
+			width: 25%;
 			padding: 30px 0;
 			margin: 0;
 			list-style-type: none;
