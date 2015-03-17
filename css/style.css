@@ -135,6 +135,11 @@ h1, h2, h3
 	background: #EEE;
 }
 
+.colour4
+{
+	background: #FF0;
+}
+
 
 /* ==================================================
    Separator Arrows
@@ -307,91 +312,23 @@ h1, h2, h3
 		{
 			opacity: 1;
 		}
-	
-	#maincont #signupform
+		
+#breaking
+{
+	color: #000;
+	text-transform: uppercase;
+}
+
+	#breaking a
 	{
-		margin: 0 auto 20px auto;
-		width: 80%;
+		color: #000;
+		opacity: 0.6;
 	}
-
-		.sb-search
+	
+		#breaking a:hover
 		{
-			position: relative;
-			width: 100%;
-			min-width: 50px;
-			height: 50px;
-			overflow: hidden;
+			opacity: 1;
 		}
-
-			.sb-search .sb-search-input
-			{
-				position: absolute;
-				top: 0;
-				right: 0;
-				border: none;
-				outline: none;
-				background: #FFF;
-				border: 0;
-				width: 100%;
-				height: 50px;
-				margin: 0;
-				z-index: 10;
-				padding: 0 65px 0 15px;
-				font-family: inherit;
-				font-size: 20px;
-				color: #333;
-				
-				-webkit-border-radius: 0px;
-				-moz-border-radius: 0px;
-				border-radius: 0px;
-				
-				-webkit-appearance: none;
-			}
-
-		button.formbutton, .sb-search-submit 
-		{
-			width: 60px;
-			height: 60px;
-			display: block;
-			position: absolute;
-			right: 0;
-			top: 0;
-			padding: 0;
-			margin: 0;
-			text-align: center;
-			cursor: pointer;
-		}
-
-			.sb-search-submit
-			{
-				background: #FFF; /* IE needs this */
-				-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* IE 8 */
-				filter: alpha(opacity=0); /* IE 5-7 */
-				opacity: 0;
-				color: transparent;
-				border: none;
-				outline: none;
-				z-index: -1;
-			}
-			
-			button.formbutton
-			{
-				color: #FFF;
-				background: #16A085;
-				z-index: 90;
-				border: 0;
-				height: 50px;
-			}
-			
-			button.formbutton span
-			{
-				font-size: 19px;
-			}
-			
-				button.formbutton:hover
-				{
-					background: #149077;
-				}
 			
 #quotecont
 {
