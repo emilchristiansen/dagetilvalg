@@ -29,7 +29,7 @@ $(document).ready(function() {
 $(document).ready(function() {
 	"use strict";
 	$("#countdown").countdown({
-		date: "24 December 2015 9:00:00", /** Enter new date here **/
+		date: "3 December 2015 9:00:00", /** Enter new date here **/
 		format: "off"
 	},
 	function() {
@@ -58,4 +58,3 @@ $(window).load(function() {
 		transitionStyle: "backSlide" /** fade, backSlide, goDown, fadeUp - Remove whole line for slide transition **/
 	});
 });
-
